@@ -1,0 +1,1 @@
+ /root/perkuliahan/pemrograman_mobile/pertemuan1/.dart_tool/flutter_build/7a72ea8497db4b3d652d45063bc928b6/native_assets.yaml: 
