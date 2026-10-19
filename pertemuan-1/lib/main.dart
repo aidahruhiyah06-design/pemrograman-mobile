@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Praktikum 1',
-      home: const KartuPerkenalanPage(),
+      home: KartuPerkenalanPage(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -27,44 +27,35 @@ class KartuPerkenalanPage extends StatelessWidget {
         title: const Text('Kartu Perkenalan'),
         centerTitle: true,
       ),
-      body: Center(
+      body: const  Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Ikon / Foto
-            const Icon(
+            Icon(
               Icons.person,
               size: 100,
               color: Colors.blue,
             ),
-            const SizedBox(height: 16),
-            
-            // Nama
-            const Text(
+            SizedBox(height: 16),
+            Text(
               'Aidah',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(height: 8),
-            
-            // NIM
-            const Text(
+            SizedBox(height: 8),
+            Text(
               'NIM: 20240801142',
               style: TextStyle(fontSize: 16),
             ),
-            const SizedBox(height: 8),
-            
-            // Jurusan
-            const Text(
+            SizedBox(height: 8),
+            Text(
               'Jurusan: Teknik Informatika',
               style: TextStyle(fontSize: 16),
             ),
-            const SizedBox(height: 8),
-            
-            // Hobi
-            const Text(
+            SizedBox(height: 8),
+            Text(
               'Hobi: Membaca',
               style: TextStyle(fontSize: 16),
             ),
