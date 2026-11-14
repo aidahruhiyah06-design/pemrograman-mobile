@@ -1,17 +1,23 @@
-# tabungku_layout
+﻿# Tugas Pertemuan 3 - TabungKu Layout
 
-A new Flutter project.
+- **Nama:** Aidah Ruhiyah Ramadhani
+- **NIM:** 20240801142
+- **Mata Kuliah:** Pemrograman Mobile
 
-## Getting Started
+## Deskripsi Proyek
+Implementasi antarmuka aplikasi pencatatan keuangan **TabungKu** menggunakan widget dasar Flutter (Scaffold, AppBar, SingleChildScrollView, Padding, Column, Row, Card, Expanded, SizedBox, Icon, dan Text) tanpa paket pihak ketiga, dilengkapi tata letak responsif untuk tampilan mobile maupun tablet.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan Aplikasi
+1. Pastikan **Flutter SDK** sudah terpasang dan terkonfigurasi di perangkat.
+2. Clone repository ini atau masuk ke direktori proyek:
+   ```bash
+   cd pertemuan-3/tabungku_layout
+   ```
+3. Unduh seluruh dependensi proyek:
+   ```bash
+   flutter pub get
+   ```
+4. Jalankan aplikasi pada emulator, perangkat fisik, atau browser (Chrome):
+   ```bash
+   flutter run
+   ```
